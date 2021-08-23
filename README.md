@@ -1,13 +1,14 @@
-# Quiz App
+# Timer App
  
-[live Site](https://a-quiz-app-1.netlify.app/)
+[live Site](https://a-timer-app.netlify.app/)
 
-![Quiz App](/src/preview.png)
+![Quiz App](/preview.png)
 
-This is the code repo of Quiz App. There I used:
+This is the code repo of Timer App. There I used:
   * [React](https://reactjs.org)
-  * [Material UI](https://material-ui.com/)
   * [Typescript](https://www.typescriptlang.org)
+  * [EnzymeJs](https://enzymejs.github.io/enzyme/)
+  * [Jest](https://jestjs.io/)
 
 ## To use this project
   1. Clone this Project
