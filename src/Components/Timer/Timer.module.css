@@ -1,0 +1,10 @@
+.timer {
+  font-size: 40px;
+}
+
+.btn_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
