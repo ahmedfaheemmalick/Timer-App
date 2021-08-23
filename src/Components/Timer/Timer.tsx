@@ -65,10 +65,10 @@ const Timer = () => {
     return (
         <div>
             <div className={styles.timer}>
-                {hours < 10 ? `0${hours}` : hours}:
-                {minutes < 10 ? `0${minutes}` : minutes}:
-                {seconds < 10 ? `0${seconds}` : seconds}:
-                {milliSeconds < 10 ? `0${milliSeconds}` : milliSeconds}
+                <div className={styles.first}>{hours < 10 ? `0${hours}` : hours}</div>
+                <div className={styles.second}>{minutes < 10 ? `0${minutes}` : minutes}</div>
+                <div className={styles.third}>{seconds < 10 ? `0${seconds}` : seconds}</div>
+                <div className={styles.fourth}>{milliSeconds < 10 ? `0${milliSeconds}` : milliSeconds}</div>
             </div>
             <div className={styles.btn_container}>
                 <TimerButton id='start' buttonAction={startTimer} buttonValue={'Start'} />
