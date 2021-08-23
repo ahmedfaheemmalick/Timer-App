@@ -2,7 +2,7 @@
  
 [live Site](https://a-timer-app.netlify.app/)
 
-![Quiz App](/preview.png)
+![Timer App](/preview.png)
 
 This is the code repo of Timer App. There I used:
   * [React](https://reactjs.org)
