@@ -1,9 +1,8 @@
-import { FC } from 'react'
 import { shallow } from 'enzyme'
 import Timer from './Timer'
 
 describe('mounted Timer', () => {
-    let container: FC
+    let container: () => void
 
     beforeEach(() => container = shallow(<Timer />));
 
