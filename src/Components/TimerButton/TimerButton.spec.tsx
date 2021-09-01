@@ -3,7 +3,7 @@ import { shallow } from "enzyme"
 import TimerButton from "./TimerButton"
 
 describe("TimerButton", () => {
-    let container: any
+    let container: () => void
 
     beforeEach(() => {
         container = shallow(
